@@ -31,12 +31,29 @@
         position: absolute;
         top: 0;
         left: 0;
-        padding-top: 1rem;
-        padding-left: 1rem;
+        padding: 1rem;
         font-size: max(1.5rem, 16px);
         font-weight: bold;
         font-style: italic;
         color: silver;
+      }
+
+      footer {
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        transform: translate(-100%, -100%);
+        padding: 1rem;
+        width: 100%;
+        text-align: right;
+        font-size: max(1.5rem, 16px);
+        font-weight: bold;
+        font-style: italic;
+        color: silver;
+      }
+
+      a {
+        color: inherit;
       }
 
       .trombone {
@@ -246,5 +263,9 @@
       <div class="end"></div>
       <div class="button"></div>
     </div>
+    <footer>
+      made by <a href="https://aaronson.org/">adam</a> in html and css for
+      <a href="https://html.energy/html-day/2025/index.html">html day 2025</a>
+    </footer>
   </body>
 </html>
