@@ -24,6 +24,19 @@
         display: flex;
         flex-flow: row wrap;
         align-items: center;
+        position: relative;
+      }
+
+      header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        font-size: max(1.5rem, 16px);
+        font-weight: bold;
+        font-style: italic;
+        color: silver;
       }
 
       .trombone {
@@ -211,6 +224,7 @@
     </style>
   </head>
   <body>
+    <header>resize your window to move the slide</header>
     <div class="trombone">
       <div class="handle">
         <div class="crossbar"></div>
